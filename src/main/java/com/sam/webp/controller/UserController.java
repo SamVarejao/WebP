@@ -12,8 +12,8 @@ import java.util.List;
 public class UserController {
 
     private String jdbcURL = "jdbc:mysql://localhost:3306/webp?useSSL=false";
-    private String jdbcUsername = "root";
-    private String jdbcPassword = "BeerLight";
+    private String jdbcUsername = "userSysApp";
+    private String jdbcPassword = "dokadoka";
 
     private static final String INSERT_USERS_SQL = "INSERT INTO users" + " (name, email, country) VALUES " + " (?,?,?) ;";
     private static final String SELECT_USER_BY_ID = "SELECT id, name, email, country FROM users WHERE id =? ;";
