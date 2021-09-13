@@ -38,19 +38,19 @@
 
                 <fieldset >
                     <label>User Name</label> <input type="text"
-                                                    value="<c:out value='${user.name}' />" class="form-control"
+                                                    value="<c:out value='${user.name}' />" 
                                                     name="name" required="required">
                 </fieldset>
 
                 <fieldset >
                     <label>User Email</label> <input type="text"
-                                                     value="<c:out value='${user.email}' />" class="form-control"
+                                                     value="<c:out value='${user.email}' />" 
                                                      name="email">
                 </fieldset>
 
                 <fieldset >
                     <label>User Country</label> <input type="text"
-                                                       value="<c:out value='${user.country}' />" class="form-control"
+                                                       value="<c:out value='${user.country}' />" 
                                                        name="country">
                 </fieldset>
 
